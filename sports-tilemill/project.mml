@@ -1,0 +1,148 @@
+{
+  "bounds": [
+    -12.6562,
+    39.9097,
+    53.4375,
+    64.7741
+  ],
+  "center": [
+    21.0937,
+    54.9776,
+    0
+  ],
+  "format": "png24",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "linestring",
+      "extent": [
+        5.045573924184161,
+        43.49453646494209,
+        18.32664132275453,
+        49.18499646988879
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(select  osm_id, way, whitewater, \"whitewater:name\", \"whitewater:rapid_grade\", \"whitewater:rapid_name\", \"whitewater:section_grade\", \"whitewater:section_name\" FROM planet_osm_line WHERE coalesce(whitewater, \"whitewater:name\", \"whitewater:rapid_grade\", \"whitewater:rapid_name\", \"whitewater:section_grade\", \"whitewater:section_name\") IS NOT NULL) as whitewater_line",
+        "key_field": "osm_id",
+        "geometry_field": "way",
+        "extent_cache": "dynamic",
+        "extent": "",
+        "dbname": "gis",
+        "host": "localhost",
+        "user": "openseamap",
+        "password": "blubb",
+        "id": "osm_whitewater_line",
+        "project": "openseamap_sports",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "id": "osm_whitewater_line",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "osm_whitewater_line"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        5.045573924184161,
+        43.49453646494209,
+        18.32664132275453,
+        49.18499646988879
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(SELECT osm_id, name, sport, way FROM planet_osm_line WHERE (sport~'fishing|kite_surfing|canoeing|canoe|rowing|sailing|scuba_diving|surfing|water_ski|windsurfing|water_sports')) as sport_line",
+        "key_field": "osm_id",
+        "geometry_field": "way",
+        "extent_cache": "dynamic",
+        "extent": "",
+        "dbname": "gis",
+        "host": "localhost",
+        "user": "openseamap",
+        "password": "blubb",
+        "id": "osm_sport_line",
+        "project": "openseamap_sports",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "id": "osm_sport_line",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "osm_sport_line"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        9.399918132424908,
+        46.20125015587909,
+        17.707398730924734,
+        49.113055239409526
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(SELECT access, sport, osm_id, way, name FROM planet_osm_point WHERE (sport SIMILAR TO '(fishing|kite_surfing|canoeing|canoe|rowing|sailing|scuba_diving|surfing|swimming|water_ski|windsurfing|water_sports)') AND (access IS NULL or access NOT SIMILAR TO '(no|private)')) as sport_point",
+        "key_field": "osm_id",
+        "geometry_field": "way",
+        "extent_cache": "dynamic",
+        "extent": "",
+        "dbname": "gis",
+        "host": "localhost",
+        "user": "openseamap",
+        "password": "blubb",
+        "id": "osm_sport_point",
+        "project": "openseamap_sports",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "id": "osm_sport_point",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "osm_sport_point"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        9.399918132424908,
+        46.20125015587909,
+        17.707398730924734,
+        49.113055239409526
+      ],
+      "Datasource": {
+        "type": "postgis",
+        "table": "(SELECT osm_id, way, whitewater, \"whitewater:name\", \"whitewater:rapid_grade\", \"whitewater:rapid_name\" FROM planet_osm_point WHERE coalesce(whitewater, \"whitewater:name\", \"whitewater:rapid_grade\", \"whitewater:rapid_name\", \"whitewater:section_grade\", \"whitewater:section_name\") IS NOT NULL) as whitewater_point",
+        "key_field": "osm_id",
+        "geometry_field": "way",
+        "extent_cache": "dynamic",
+        "extent": "",
+        "dbname": "gis",
+        "host": "localhost",
+        "user": "openseamap",
+        "password": "blubb",
+        "id": "osm_whitewater_point",
+        "project": "openseamap_sports",
+        "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over"
+      },
+      "id": "osm_whitewater_point",
+      "class": "",
+      "srs-name": "900913",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "advanced": {},
+      "name": "osm_whitewater_point"
+    }
+  ],
+  "scale": 1,
+  "metatile": 1,
+  "name": "Openseamap Sports",
+  "description": "",
+  "attribution": ""
+}

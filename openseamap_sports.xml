@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" maximum-extent="-20037508.34,-20037508.34,20037508.34,20037508.34">
+
+<Parameters>
+  <Parameter name="bounds">-12.6562,39.9097,53.4375,64.7741</Parameter>
+  <Parameter name="center">21.0937,54.9776,0</Parameter>
+  <Parameter name="format">png24</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="maxzoom">18</Parameter>
+  <Parameter name="scale">1</Parameter>
+  <Parameter name="metatile">1</Parameter>
+  <Parameter name="id"><![CDATA[openseamap_sports]]></Parameter>
+  <Parameter name="_updated">1417988254000</Parameter>
+  <Parameter name="name"><![CDATA[Openseamap Sports]]></Parameter>
+  <Parameter name="tilejson"><![CDATA[2.0.0]]></Parameter>
+  <Parameter name="scheme"><![CDATA[xyz]]></Parameter>
+</Parameters>
+
+<FontSet name="fontset-0">
+  <Font face-name="Arial Bold"/>
+  <Font face-name="Liberation Sans Bold"/>
+  <Font face-name="DejaVu Sans Bold"/>
+</FontSet>
+<Style name="osm_whitewater_line" filter-mode="first" opacity="0.75">
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([whitewater:section_grade].match('6|6+|6-|5-6'))</Filter>
+    <LineSymbolizer stroke="#a000a0" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('6|6+|6-|5-6'))</Filter>
+    <LineSymbolizer stroke="#a000a0" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('6|6+|6-|5-6'))</Filter>
+    <LineSymbolizer stroke="#a000a0" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('6|6+|6-|5-6'))</Filter>
+    <LineSymbolizer stroke="#a000a0" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('6|6+|6-|5-6'))</Filter>
+    <LineSymbolizer stroke="#a000a0" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('6|6+|6-|5-6'))</Filter>
+    <LineSymbolizer stroke="#a000a0" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('6|6+|6-|5-6'))</Filter>
+    <LineSymbolizer stroke="#a000a0" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('6|6+|6-|5-6'))</Filter>
+    <LineSymbolizer stroke="#a000a0" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([whitewater:section_grade].match('5|5+|5-|4-5'))</Filter>
+    <LineSymbolizer stroke="#8000ff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('5|5+|5-|4-5'))</Filter>
+    <LineSymbolizer stroke="#8000ff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('5|5+|5-|4-5'))</Filter>
+    <LineSymbolizer stroke="#8000ff" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('5|5+|5-|4-5'))</Filter>
+    <LineSymbolizer stroke="#8000ff" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('5|5+|5-|4-5'))</Filter>
+    <LineSymbolizer stroke="#8000ff" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('5|5+|5-|4-5'))</Filter>
+    <LineSymbolizer stroke="#8000ff" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('5|5+|5-|4-5'))</Filter>
+    <LineSymbolizer stroke="#8000ff" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('5|5+|5-|4-5'))</Filter>
+    <LineSymbolizer stroke="#8000ff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([whitewater:section_grade].match('4|4+|4-|3-4'))</Filter>
+    <LineSymbolizer stroke="#ff0000" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('4|4+|4-|3-4'))</Filter>
+    <LineSymbolizer stroke="#ff0000" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('4|4+|4-|3-4'))</Filter>
+    <LineSymbolizer stroke="#ff0000" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('4|4+|4-|3-4'))</Filter>
+    <LineSymbolizer stroke="#ff0000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('4|4+|4-|3-4'))</Filter>
+    <LineSymbolizer stroke="#ff0000" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('4|4+|4-|3-4'))</Filter>
+    <LineSymbolizer stroke="#ff0000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('4|4+|4-|3-4'))</Filter>
+    <LineSymbolizer stroke="#ff0000" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('4|4+|4-|3-4'))</Filter>
+    <LineSymbolizer stroke="#ff0000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([whitewater:section_grade].match('3|3+|3-|2-3'))</Filter>
+    <LineSymbolizer stroke="#ff8000" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('3|3+|3-|2-3'))</Filter>
+    <LineSymbolizer stroke="#ff8000" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('3|3+|3-|2-3'))</Filter>
+    <LineSymbolizer stroke="#ff8000" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('3|3+|3-|2-3'))</Filter>
+    <LineSymbolizer stroke="#ff8000" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('3|3+|3-|2-3'))</Filter>
+    <LineSymbolizer stroke="#ff8000" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('3|3+|3-|2-3'))</Filter>
+    <LineSymbolizer stroke="#ff8000" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('3|3+|3-|2-3'))</Filter>
+    <LineSymbolizer stroke="#ff8000" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('3|3+|3-|2-3'))</Filter>
+    <LineSymbolizer stroke="#ff8000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([whitewater:section_grade].match('2|2+|2-|1-2'))</Filter>
+    <LineSymbolizer stroke="#ffd400" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('2|2+|2-|1-2'))</Filter>
+    <LineSymbolizer stroke="#ffd400" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('2|2+|2-|1-2'))</Filter>
+    <LineSymbolizer stroke="#ffd400" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('2|2+|2-|1-2'))</Filter>
+    <LineSymbolizer stroke="#ffd400" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('2|2+|2-|1-2'))</Filter>
+    <LineSymbolizer stroke="#ffd400" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('2|2+|2-|1-2'))</Filter>
+    <LineSymbolizer stroke="#ffd400" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('2|2+|2-|1-2'))</Filter>
+    <LineSymbolizer stroke="#ffd400" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('2|2+|2-|1-2'))</Filter>
+    <LineSymbolizer stroke="#ffd400" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([whitewater:section_grade].match('1|1+|1-|0-1'))</Filter>
+    <LineSymbolizer stroke="#00d400" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('1|1+|1-|0-1'))</Filter>
+    <LineSymbolizer stroke="#00d400" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('1|1+|1-|0-1'))</Filter>
+    <LineSymbolizer stroke="#00d400" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('1|1+|1-|0-1'))</Filter>
+    <LineSymbolizer stroke="#00d400" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('1|1+|1-|0-1'))</Filter>
+    <LineSymbolizer stroke="#00d400" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('1|1+|1-|0-1'))</Filter>
+    <LineSymbolizer stroke="#00d400" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('1|1+|1-|0-1'))</Filter>
+    <LineSymbolizer stroke="#00d400" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('1|1+|1-|0-1'))</Filter>
+    <LineSymbolizer stroke="#00d400" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <Filter>([whitewater:section_grade].match('0'))</Filter>
+    <LineSymbolizer stroke="#0080ff" stroke-width="7.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('0'))</Filter>
+    <LineSymbolizer stroke="#0080ff" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('0'))</Filter>
+    <LineSymbolizer stroke="#0080ff" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('0'))</Filter>
+    <LineSymbolizer stroke="#0080ff" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('0'))</Filter>
+    <LineSymbolizer stroke="#0080ff" stroke-width="5.5" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('0'))</Filter>
+    <LineSymbolizer stroke="#0080ff" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('0'))</Filter>
+    <LineSymbolizer stroke="#0080ff" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([whitewater:section_grade].match('0'))</Filter>
+    <LineSymbolizer stroke="#0080ff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="7.5" stroke="#999999" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <LineSymbolizer stroke-width="7" stroke="#999999" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="6.5" stroke="#999999" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="6" stroke="#999999" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="5.5" stroke="#999999" stroke-linejoin="round" stroke-linecap="round" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" placement="line" ><![CDATA[[whitewater:section_name]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>400000</MaxScaleDenominator>
+    <MinScaleDenominator>200000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="5" stroke="#999999" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <MinScaleDenominator>400000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="4.5" stroke="#999999" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500000</MaxScaleDenominator>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <LineSymbolizer stroke-width="4" stroke="#999999" stroke-linejoin="round" stroke-linecap="round" />
+  </Rule>
+</Style>
+<Layer name="osm_whitewater_line"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>osm_whitewater_line</StyleName>
+    <Datasource>
+       <Parameter name="type"><![CDATA[postgis]]></Parameter>
+       <Parameter name="table"><![CDATA[(select  osm_id, way, whitewater, "whitewater:name", "whitewater:rapid_grade", "whitewater:rapid_name", "whitewater:section_grade", "whitewater:section_name" FROM planet_osm_line WHERE coalesce(whitewater, "whitewater:name", "whitewater:rapid_grade", "whitewater:rapid_name", "whitewater:section_grade", "whitewater:section_name") IS NOT NULL) as whitewater_line]]></Parameter>
+       <Parameter name="key_field"><![CDATA[osm_id]]></Parameter>
+       <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+       <Parameter name="extent_cache"><![CDATA[dynamic]]></Parameter>
+       <Parameter name="extent"><![CDATA[]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="user"><![CDATA[openseamap]]></Parameter>
+       <Parameter name="password"><![CDATA[blubb]]></Parameter>
+       <Parameter name="id"><![CDATA[osm_whitewater_line]]></Parameter>
+       <Parameter name="project"><![CDATA[openseamap_sports]]></Parameter>
+       <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Style name="osm_sport_line" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([sport] = 'water_ski')</Filter>
+    <LineSymbolizer stroke-width="2" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="symbols/waterskiing.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([sport] = 'surfing')</Filter>
+    <LineSymbolizer stroke-width="2" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="symbols/surfing.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([sport] = 'windsurfing')</Filter>
+    <LineSymbolizer stroke-width="2" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="symbols/windsurfing.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([sport] = 'scuba_diving')</Filter>
+    <LineSymbolizer stroke-width="2" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="symbols/scuba_diving.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([sport] = 'sailing')</Filter>
+    <LineSymbolizer stroke-width="2" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="symbols/sailing.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([sport] = 'rowing')</Filter>
+    <LineSymbolizer stroke-width="2" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="symbols/rowing.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([sport] = 'kite_surfing')</Filter>
+    <LineSymbolizer stroke-width="2" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([sport] = 'fishing')</Filter>
+    <LineSymbolizer stroke-width="2" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([sport].match('canoe|canoeing'))</Filter>
+    <LineSymbolizer stroke-width="2" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" ><![CDATA[[name]]]></TextSymbolizer>
+    <MarkersSymbolizer file="symbols/canoeing.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <LineSymbolizer stroke-width="2" />
+    <TextSymbolizer fontset-name="fontset-0" size="11" halo-radius="1" halo-fill="rgba(255, 255, 255, 0.7)" ><![CDATA[[name]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="osm_sport_line"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>osm_sport_line</StyleName>
+    <Datasource>
+       <Parameter name="type"><![CDATA[postgis]]></Parameter>
+       <Parameter name="table"><![CDATA[(SELECT osm_id, name, sport, way FROM planet_osm_line WHERE (sport~'fishing|kite_surfing|canoeing|canoe|rowing|sailing|scuba_diving|surfing|water_ski|windsurfing|water_sports')) as sport_line]]></Parameter>
+       <Parameter name="key_field"><![CDATA[osm_id]]></Parameter>
+       <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+       <Parameter name="extent_cache"><![CDATA[dynamic]]></Parameter>
+       <Parameter name="extent"><![CDATA[]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="user"><![CDATA[openseamap]]></Parameter>
+       <Parameter name="password"><![CDATA[blubb]]></Parameter>
+       <Parameter name="id"><![CDATA[osm_sport_line]]></Parameter>
+       <Parameter name="project"><![CDATA[openseamap_sports]]></Parameter>
+       <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Style name="osm_sport_point" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([sport] = 'water_ski')</Filter>
+    <MarkersSymbolizer file="symbols/waterskiing.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([sport] = 'water_ski')</Filter>
+    <MarkersSymbolizer file="symbols/waterskiing.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([sport] = 'water_ski')</Filter>
+    <MarkersSymbolizer file="symbols/waterskiing.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([sport] = 'water_ski')</Filter>
+    <MarkersSymbolizer file="symbols/waterskiing.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([sport] = 'water_ski')</Filter>
+    <MarkersSymbolizer file="symbols/waterskiing.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([sport] = 'water_ski')</Filter>
+    <MarkersSymbolizer file="symbols/waterskiing.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([sport] = 'water_ski')</Filter>
+    <MarkersSymbolizer file="symbols/waterskiing.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([sport] = 'water_ski')</Filter>
+    <MarkersSymbolizer file="symbols/waterskiing.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([sport] = 'surfing')</Filter>
+    <MarkersSymbolizer file="symbols/surfing.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([sport] = 'surfing')</Filter>
+    <MarkersSymbolizer file="symbols/surfing.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([sport] = 'surfing')</Filter>
+    <MarkersSymbolizer file="symbols/surfing.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([sport] = 'surfing')</Filter>
+    <MarkersSymbolizer file="symbols/surfing.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([sport] = 'surfing')</Filter>
+    <MarkersSymbolizer file="symbols/surfing.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([sport] = 'surfing')</Filter>
+    <MarkersSymbolizer file="symbols/surfing.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([sport] = 'surfing')</Filter>
+    <MarkersSymbolizer file="symbols/surfing.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([sport] = 'surfing')</Filter>
+    <MarkersSymbolizer file="symbols/surfing.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([sport] = 'windsurfing')</Filter>
+    <MarkersSymbolizer file="symbols/windsurfing.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([sport] = 'windsurfing')</Filter>
+    <MarkersSymbolizer file="symbols/windsurfing.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([sport] = 'windsurfing')</Filter>
+    <MarkersSymbolizer file="symbols/windsurfing.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([sport] = 'windsurfing')</Filter>
+    <MarkersSymbolizer file="symbols/windsurfing.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([sport] = 'windsurfing')</Filter>
+    <MarkersSymbolizer file="symbols/windsurfing.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([sport] = 'windsurfing')</Filter>
+    <MarkersSymbolizer file="symbols/windsurfing.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([sport] = 'windsurfing')</Filter>
+    <MarkersSymbolizer file="symbols/windsurfing.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([sport] = 'windsurfing')</Filter>
+    <MarkersSymbolizer file="symbols/windsurfing.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([sport] = 'swimming')</Filter>
+    <MarkersSymbolizer file="symbols/swimming.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([sport] = 'swimming')</Filter>
+    <MarkersSymbolizer file="symbols/swimming.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([sport] = 'swimming')</Filter>
+    <MarkersSymbolizer file="symbols/swimming.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([sport] = 'swimming')</Filter>
+    <MarkersSymbolizer file="symbols/swimming.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([sport] = 'swimming')</Filter>
+    <MarkersSymbolizer file="symbols/swimming.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([sport] = 'swimming')</Filter>
+    <MarkersSymbolizer file="symbols/swimming.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([sport] = 'swimming')</Filter>
+    <MarkersSymbolizer file="symbols/swimming.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([sport] = 'swimming')</Filter>
+    <MarkersSymbolizer file="symbols/swimming.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([sport] = 'scuba_diving')</Filter>
+    <MarkersSymbolizer file="symbols/scuba_diving.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([sport] = 'scuba_diving')</Filter>
+    <MarkersSymbolizer file="symbols/scuba_diving.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([sport] = 'scuba_diving')</Filter>
+    <MarkersSymbolizer file="symbols/scuba_diving.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([sport] = 'scuba_diving')</Filter>
+    <MarkersSymbolizer file="symbols/scuba_diving.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([sport] = 'scuba_diving')</Filter>
+    <MarkersSymbolizer file="symbols/scuba_diving.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([sport] = 'scuba_diving')</Filter>
+    <MarkersSymbolizer file="symbols/scuba_diving.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([sport] = 'scuba_diving')</Filter>
+    <MarkersSymbolizer file="symbols/scuba_diving.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([sport] = 'scuba_diving')</Filter>
+    <MarkersSymbolizer file="symbols/scuba_diving.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([sport] = 'sailing')</Filter>
+    <MarkersSymbolizer file="symbols/sailing.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([sport] = 'sailing')</Filter>
+    <MarkersSymbolizer file="symbols/sailing.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([sport] = 'sailing')</Filter>
+    <MarkersSymbolizer file="symbols/sailing.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([sport] = 'sailing')</Filter>
+    <MarkersSymbolizer file="symbols/sailing.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([sport] = 'sailing')</Filter>
+    <MarkersSymbolizer file="symbols/sailing.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([sport] = 'sailing')</Filter>
+    <MarkersSymbolizer file="symbols/sailing.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([sport] = 'sailing')</Filter>
+    <MarkersSymbolizer file="symbols/sailing.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([sport] = 'sailing')</Filter>
+    <MarkersSymbolizer file="symbols/sailing.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([sport] = 'rowing')</Filter>
+    <MarkersSymbolizer file="symbols/rowing.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([sport] = 'rowing')</Filter>
+    <MarkersSymbolizer file="symbols/rowing.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([sport] = 'rowing')</Filter>
+    <MarkersSymbolizer file="symbols/rowing.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([sport] = 'rowing')</Filter>
+    <MarkersSymbolizer file="symbols/rowing.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([sport] = 'rowing')</Filter>
+    <MarkersSymbolizer file="symbols/rowing.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([sport] = 'rowing')</Filter>
+    <MarkersSymbolizer file="symbols/rowing.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([sport] = 'rowing')</Filter>
+    <MarkersSymbolizer file="symbols/rowing.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([sport] = 'rowing')</Filter>
+    <MarkersSymbolizer file="symbols/rowing.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([sport] = 'kite_surfing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([sport] = 'kite_surfing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([sport] = 'kite_surfing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([sport] = 'kite_surfing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([sport] = 'kite_surfing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([sport] = 'kite_surfing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([sport] = 'kite_surfing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([sport] = 'kite_surfing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([sport] = 'fishing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([sport] = 'fishing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([sport] = 'fishing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([sport] = 'fishing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([sport] = 'fishing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([sport] = 'fishing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([sport] = 'fishing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([sport] = 'fishing')</Filter>
+    <MarkersSymbolizer file="symbols/kitesurfing.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([sport].match('canoe|canoeing'))</Filter>
+    <MarkersSymbolizer file="symbols/canoeing.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([sport].match('canoe|canoeing'))</Filter>
+    <MarkersSymbolizer file="symbols/canoeing.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([sport].match('canoe|canoeing'))</Filter>
+    <MarkersSymbolizer file="symbols/canoeing.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([sport].match('canoe|canoeing'))</Filter>
+    <MarkersSymbolizer file="symbols/canoeing.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([sport].match('canoe|canoeing'))</Filter>
+    <MarkersSymbolizer file="symbols/canoeing.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([sport].match('canoe|canoeing'))</Filter>
+    <MarkersSymbolizer file="symbols/canoeing.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([sport].match('canoe|canoeing'))</Filter>
+    <MarkersSymbolizer file="symbols/canoeing.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([sport].match('canoe|canoeing'))</Filter>
+    <MarkersSymbolizer file="symbols/canoeing.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <MarkersSymbolizer width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <MarkersSymbolizer width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <MarkersSymbolizer width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <MarkersSymbolizer width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <MarkersSymbolizer width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <MarkersSymbolizer width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <MarkersSymbolizer width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <MarkersSymbolizer width="18" allow-overlap="true" />
+  </Rule>
+</Style>
+<Layer name="osm_sport_point"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>osm_sport_point</StyleName>
+    <Datasource>
+       <Parameter name="type"><![CDATA[postgis]]></Parameter>
+       <Parameter name="table"><![CDATA[(SELECT access, sport, osm_id, way, name FROM planet_osm_point WHERE (sport SIMILAR TO '(fishing|kite_surfing|canoeing|canoe|rowing|sailing|scuba_diving|surfing|swimming|water_ski|windsurfing|water_sports)') AND (access IS NULL or access NOT SIMILAR TO '(no|private)')) as sport_point]]></Parameter>
+       <Parameter name="key_field"><![CDATA[osm_id]]></Parameter>
+       <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+       <Parameter name="extent_cache"><![CDATA[dynamic]]></Parameter>
+       <Parameter name="extent"><![CDATA[]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="user"><![CDATA[openseamap]]></Parameter>
+       <Parameter name="password"><![CDATA[blubb]]></Parameter>
+       <Parameter name="id"><![CDATA[osm_sport_point]]></Parameter>
+       <Parameter name="project"><![CDATA[openseamap_sports]]></Parameter>
+       <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
+    </Datasource>
+  </Layer>
+
+<Style name="osm_whitewater_point" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6') and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '6')</Filter>
+    <MarkersSymbolizer file="symbols/rapid_6.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5') and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '5')</Filter>
+    <MarkersSymbolizer file="symbols/rapid_5.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4') and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade] = '4')</Filter>
+    <MarkersSymbolizer file="symbols/rapid_4.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater].match('put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in_egress.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater] = 'rapid') and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater] = 'rapid')</Filter>
+    <MarkersSymbolizer file="symbols/rapid.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater] = 'hazard') and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater] = 'hazard')</Filter>
+    <MarkersSymbolizer file="symbols/hazard.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater] = 'egress') and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater] = 'egress')</Filter>
+    <MarkersSymbolizer file="symbols/egress.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater] = 'put_in') and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater] = 'put_in')</Filter>
+    <MarkersSymbolizer file="symbols/put_in.svg" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in')) and ([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer width="15" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>1500</MaxScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer width="32" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>2500</MaxScaleDenominator>
+    <MinScaleDenominator>1500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer width="30" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>5000</MaxScaleDenominator>
+    <MinScaleDenominator>2500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer width="28" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500</MaxScaleDenominator>
+    <MinScaleDenominator>5000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer width="26" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000</MaxScaleDenominator>
+    <MinScaleDenominator>12500</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer width="24" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000</MaxScaleDenominator>
+    <MinScaleDenominator>25000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer width="22" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000</MaxScaleDenominator>
+    <MinScaleDenominator>50000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer width="20" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <MinScaleDenominator>100000</MinScaleDenominator>
+    <Filter>([whitewater].match('put_in|egress|hazard|rapid|put_in;egress|egress;put_in'))</Filter>
+    <MarkersSymbolizer width="18" allow-overlap="true" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>200000</MaxScaleDenominator>
+    <Filter>([whitewater:rapid_grade].match('4|5|6'))</Filter>
+    <MarkersSymbolizer width="15" allow-overlap="true" />
+  </Rule>
+</Style>
+<Layer name="osm_whitewater_point"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>osm_whitewater_point</StyleName>
+    <Datasource>
+       <Parameter name="type"><![CDATA[postgis]]></Parameter>
+       <Parameter name="table"><![CDATA[(SELECT osm_id, way, whitewater, "whitewater:name", "whitewater:rapid_grade", "whitewater:rapid_name" FROM planet_osm_point WHERE coalesce(whitewater, "whitewater:name", "whitewater:rapid_grade", "whitewater:rapid_name", "whitewater:section_grade", "whitewater:section_name") IS NOT NULL) as whitewater_point]]></Parameter>
+       <Parameter name="key_field"><![CDATA[osm_id]]></Parameter>
+       <Parameter name="geometry_field"><![CDATA[way]]></Parameter>
+       <Parameter name="extent_cache"><![CDATA[dynamic]]></Parameter>
+       <Parameter name="extent"><![CDATA[]]></Parameter>
+       <Parameter name="dbname"><![CDATA[gis]]></Parameter>
+       <Parameter name="host"><![CDATA[localhost]]></Parameter>
+       <Parameter name="user"><![CDATA[openseamap]]></Parameter>
+       <Parameter name="password"><![CDATA[blubb]]></Parameter>
+       <Parameter name="id"><![CDATA[osm_whitewater_point]]></Parameter>
+       <Parameter name="project"><![CDATA[openseamap_sports]]></Parameter>
+       <Parameter name="srs"><![CDATA[+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over]]></Parameter>
+    </Datasource>
+  </Layer>
+
+</Map>
